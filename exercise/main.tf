@@ -1,3 +1,4 @@
+
 resource "aws_s3_object" "student_alias" {
   bucket = "sm-di-${var.student_alias}"
   key = "student.alias"
