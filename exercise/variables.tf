@@ -3,3 +3,7 @@ variable "student_alias" {
   default = "participant-07-default-value"
   type = string
 }
+
+variable "filename" {
+  type = string
+}
